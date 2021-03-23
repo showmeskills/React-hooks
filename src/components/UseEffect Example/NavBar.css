@@ -1,0 +1,8 @@
+.NavBar li{
+    list-style-type: none;
+    float: left;
+    margin-left:10px;
+}
+.active{
+    color:pink;
+}
