@@ -1,6 +1,6 @@
 import React,{useState} from 'react';
 
-import {UseState,UseEffect} from './components'
+import {UseState,UseEffect,UseContext} from './components'
 import {BrowserRouter,Route,Switch} from 'react-router-dom'
 import NavBar from './components/UseEffect Example/NavBar'
 import Home from './components/UseEffect Example/Home'
@@ -37,7 +37,8 @@ const App = (props)=>{
                     }}/>
                 </Switch>
                 </BrowserRouter>
-
+                <h1>UseContext demo three emit value between father and son components</h1>
+                <UseContext/>
             </>
         )
     }
