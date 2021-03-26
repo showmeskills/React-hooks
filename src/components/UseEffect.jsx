@@ -6,7 +6,7 @@ import {BrowserRouter as Router,Route,Link,Switch} from 'react-router-dom'
 
 function Index(props){
     useEffect(()=>{
-        console.log('useEffect==>Index page')
+        //console.log('useEffect==>Index page')
         return ()=>console.log('useEffect===> leaved index page')
     },[])
   
@@ -39,7 +39,7 @@ const UseEffect = ()=>{
 
     const decrement = ()=>setCount(count-1)
     useEffect(()=>{
-        console.log(`your click ${count} times`)
+        //console.log(`your click ${count} times`)
         return ()=>console.log('=======================')
     },[count])
    
