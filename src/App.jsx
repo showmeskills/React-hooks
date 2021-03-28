@@ -1,6 +1,6 @@
 import React,{useState} from 'react';
 
-import {UseState,UseEffect,UseContext,UseReducer,UseMemo} from './components'
+import {UseState,UseEffect,UseContext,UseReducer,UseMemo,UseRef,CusomtizeHook} from './components'
 import {BrowserRouter,Route,Switch} from 'react-router-dom'
 import NavBar from './components/UseEffect Example/NavBar'
 import Home from './components/UseEffect Example/Home'
@@ -41,7 +41,8 @@ const App = (props)=>{
                 <UseContext/>
                 <UseReducer/>
                 <UseMemo/>    
-
+                <UseRef/>
+                <CusomtizeHook/>
             </>
         )
     }
